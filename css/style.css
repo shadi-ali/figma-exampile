@@ -1,0 +1,478 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Gotham';
+    src: url("./GothamMedium.ttf");
+  }
+  @font-face {
+    font-family: 'Minion Pro';
+    src: url("./MinionPro-Medium\ -\ Copy.ttf");
+  }
+.copyright{
+    max-width: 100vw;
+    background-color: #000000;
+    text-align: center;
+}
+.copyright p{
+    color: white;
+    padding: 9px 0;
+    font-family: 'Gotham';
+    font-size: 10px;
+    line-height: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 40px 0 40px;
+}
+nav .items , .secnav .items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .items p, nav .items span , .secnav p , .secnav span{
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: #A7A5A6;
+}
+.logo{
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo h1{
+    font-family: 'Minion Pro';
+    font-weight: 600;
+    font-size: 27.077px;
+    line-height: 45px;
+}
+.logo p{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 9.5px;
+    line-height: 16px;
+}
+.section{
+    width:34.041vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 32px;
+    list-style: none;
+}
+.section a{
+    font-family: 'Gotham';
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 16px;
+    color: #231F20;
+}
+.hero{
+    margin-top: 58px;
+    position: relative;
+}
+.hero img{
+    margin-left: 33.061vw;
+}
+.hero .info{
+    position: absolute;
+    top: 50%;
+    left: 18.3748vw;
+    transform: translateY(-50%);
+    width: 437px;
+    height: 212px;
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+.hero .info h1,#baby .baby-hero .info h1,#special .special-hero .info h1{
+    font-family: 'Minion Pro';
+    font-weight: 500;
+    font-size: 61px;
+    line-height: 80px;
+    color: #231F20;
+}
+.hero .info p,#baby .baby-hero .info p,#special .special-hero .info p{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #231F20;
+}
+.secnav{
+    display: flex;
+    max-width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 58px;
+    padding: 14px 40px;
+    border-bottom: 1px solid #D9D9D9;
+
+}
+.secnav .section{
+    margin-top: 0;
+}
+.container ,#Platinum .platinumcontainer,#baby .babycontainer,
+#special .specialcontainer{
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    gap: 14.4948vw;
+ /*    width: max-content; */
+/*     justify-content: space-between;
+ */    
+}
+.container .left , .container .right,
+#platinum .platinumcontainer .left,#platinum .platinumcontainer .right,
+#baby .babycontainer .left,#baby .babycontainer .right,
+#special .specialcontainer .left,#special .specialcontainer .right {
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+.container .smcard ,#Platinum .platinumcontainer .smcard,
+#baby .babycontainer .smcard,#special .specialcontainer .smcard {
+    width: 300px;
+    height: 300px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 61px;
+}
+.container .bgcard , #Platinum .platinumcontainer .bgcard,
+#baby .babycontainer .bgcard,#special .specialcontainer .bgcard {
+    width: 400px;
+    height: 400px;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 53px;
+}
+.container .left .smcard{
+    margin-top: 58px;
+}
+.container .left .bgcard{
+    margin-top: 100px;
+}
+.container .right .bgcard{
+    margin-top: 156px;
+}
+.container .right .smcard{
+    margin-top: 100px ;
+}
+.container .smcard .info ,#Platinum .platinumcontainer .smcard .info,
+#baby .babycontainer .smcard .info, #special .specialcontainer .smcard .info{
+    position: absolute;
+    bottom: 20px;
+    right: 173px;
+    width: 159px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.container .bgcard .info,#Platinum .platinumcontainer .bgcard .info,
+#baby .babycontainer .bgcard .info,#special .specialcontainer .bgcard .info {
+    position: absolute;
+    bottom: 20px;
+    right: 257px;
+    width: 159px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.container .info h1 ,#Platinum .platinumcontainer .info h1,
+#baby .babycontainer .info h1,#special .specialcontainer .info h1{
+    font-family: 'Minion Pro';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+.container .info p,#Platinum .platinumcontainer .info p,
+#baby .babycontainer .info p,#special .specialcontainer .info p{
+    font-family: 'Gotham';
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 22px;
+    align-items: center;
+    letter-spacing: 1px;
+    text-indent: 5px;
+}
+#Platinum .btncontainer,#baby .btncontainer,
+#special .btncontainer{
+    width: 75px;
+    height: 17px;
+    margin: 0 auto;
+}
+#Platinum .btncontainer button, #baby .btncontainer button,
+#special .btncontainer button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    text-decoration: underline;
+    color: #231F20;
+    font-family: 'Gotham';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#Platinum, #baby, #special{
+    margin-top: 58px;
+    max-width: 100vw;
+}
+#Platinum .platinum-hero, #baby .baby-hero,
+#special .special-hero{
+    position: relative;
+    margin-top: 100px;
+
+}
+#Platinum .platinum-hero {
+    width: 551px;
+    height: 458px;
+    margin-left: 30vw;
+}
+#platinum .platinum-hero img{
+    width: 100%;
+    height: 100%;
+}
+#Platinum .platinum-hero .info{
+    width: 474px;
+    height: 212px;
+    position: absolute;
+    top: 15%;
+    left: 314px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#Platinum .platinum-hero .info h1{
+    font-family: 'Minion Pro';
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 80px;
+    align-items: center;
+    letter-spacing: 4px;
+    text-indent: 5px;
+    color: #231F20;
+}
+#Platinum .platinum-hero .info p{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #231F20;
+}
+#Platinum .platinumcontainer{
+/*     max-width: 100vw;
+    display: flex;
+    gap: 13.83vw;
+    margin: 0 10% 0 20%; */
+    position: relative;
+}
+#Platinum .platinumcontainer .left,#special .specialcontainer .left{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 5vw;
+}
+#Platinum .platinumcontainer .right,#special .specialcontainer .right{
+    position: absolute;
+    right: 1vw;
+    top: -47px;
+    text-align: center;
+}
+#Platinum .platinumcontainer .right .bgcard,
+#Platinum .platinumcontainer .left .smcard{
+    margin-top: 100px;
+}
+#Platinum .platinumcontainer .bgcard ,#Platinum .platinumcontainer .smcard{
+    position: relative;
+}
+#baby .baby-hero{
+    width: 776px;
+    height: 458px;
+    margin-left: 15.666vw;
+}
+#baby .baby-hero img{
+    width: 100%;
+    height: 100%;
+}
+#baby .baby-hero .info{
+    width: 384px;
+    height: 212px;
+    position: absolute;
+    top: 22%;
+    left: 76%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#baby .babycontainer .left{
+    margin-top: 100px;
+}
+#baby .babycontainer .right{
+    margin-top: 198px;
+}
+#baby .babycontainer .left .bgcard,#baby .babycontainer .right .smcard{
+    margin-top: 100px;
+}
+#special .special-hero{
+    width: 776px;
+    height: 458px;
+    margin-left: 32vw;
+}
+#special .special-hero img{
+    width: 100%;
+    height: 100%;
+}
+#special .special-hero .info{
+    width: 497px;
+    height: 224px;
+    position: absolute;
+    right: 62%;
+    top: 21%;
+}
+#special .specialcontainer{
+    position: relative;
+}
+#special .specialcontainer .left .smcard,
+#special .specialcontainer .right .bgcard{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 58px;
+    max-width: 100vw;
+    padding: 100px 110px 68px 110px;
+    border-top: 1px solid #D9D9D9;
+}
+.first-row,.second-row, .third-row{
+    width: 100%;
+}
+.first-row{
+    display: flex;
+    align-items: center;
+    gap: 14.5%;
+    padding: 0;
+    margin-bottom: 80px;
+}
+.first-row .section{
+    margin-top: 0;
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 68px;
+}
+.second-row .contact{
+    font-family: 'Minion Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #000000;
+
+}
+.second-row .contain{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.second-row .contain .email{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #656363;
+}
+.second-row .contain .phone{
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #656363;
+}
+.third-row{
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+.third-row img{
+    width: 100%;
+    height: 100%;
+}
+/* .first-row{
+    display: flex;
+    align-items: center;
+    gap: 12.1522vw;
+    padding-bottom: 80px;
+}
+.first-row .section {
+    width: 44%;
+    display: flex;
+    gap: 7.32vw;
+    align-items: center;
+    font-family: 'Gotham';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+.first-row .name{
+    width: 25vw;
+}
+.first-row .name h1{
+    letter-spacing: 3px;
+}
+.second-row{
+    width: 82vw;
+    display: flex;
+    align-items: center;
+    gap: 280px;
+    padding-bottom: 64px;
+}
+.second-row .contact{
+    width: 15%;
+    font-family: 'Minion Pro';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    letter-spacing: 2px;
+    text-indent: 5px;
+}
+.second-row .contain{
+    width: 65%;
+    display: flex;
+    gap: 12%;
+}
+.second-row .contain .email{
+    width: 38%;
+    font-family: 'Gotham';
+    font-weight: 400;
+    font-size: small;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #656363;
+}
+.second-row .contain img{
+    width: 8px;
+}
+.second-row .contain .phone{
+    width: 33%;
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 400;
+font-size: small;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.395em;
+text-transform: uppercase;
+color: #656363;
+}
+ */
